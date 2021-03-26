@@ -1,0 +1,37 @@
+{
+	"name": "diexadev/foundation",
+	"description": "diexadev/foundation, the basic component of Nicotine.",
+	"version": "1.0.0-dev",
+	"type": "nicotine-package",
+	"keywords": [
+		"diexadev",
+		"foundation",
+		"nicotine",
+		"framework"
+	],
+	"homepage": "https://nicotine.github.io",
+	"readme": "https://github.com/diexadev/foundation/blob/master/README.md",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Diexa Adhitiya",
+			"email": "diexadev@gmail.com",
+			"role": "Part Time Full Stack Developer"
+		}
+	],
+	"support": {
+			"source": "https://github.com/diexadev/foundation/"
+	},
+	"require": {
+		"php": ">=5.5",
+		"psr/container": "~1",
+		"diexadev/ioc": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Nicotine\\Foundation": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
